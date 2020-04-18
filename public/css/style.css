@@ -1,0 +1,28 @@
+body{
+  color: wheat;
+  background-image: url("/public/img/2.jpg");
+  
+}
+
+#bar{
+  background-color: black;
+}
+
+.container{
+  background: linear-gradient(rgb(0, 0, 0), rgb(107, 107, 107));
+
+}
+
+
+ul li
+{
+	text-decoration: none;
+	list-style: none;
+}
+
+
+#burger-card{
+  width: 16rem;
+  margin-top: 10px;
+
+}
