@@ -2,6 +2,15 @@ const express = require("express");
 const router = express.Router();
 const burger = require("../models/burger.js");
 
+router.get("/", function(req, res) {
+  burger.all(function(result) {
+    const hbsObject = {
+      burgers: result
+    };
+    console.log(hbsObject);
+    res.render("index", hbsObject);
+  });
+});
 
 router.get("/burgers", function(req, res) {
   burger.all(function(result) {
