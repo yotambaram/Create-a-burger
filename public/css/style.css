@@ -1,15 +1,17 @@
 body{
   color: wheat;
-  background-image: url("/public/img/2.jpg");
-  
+  background-image: url("/img/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #bar{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.39);
+  
 }
 
 .container{
-  background: linear-gradient(rgb(0, 0, 0), rgb(107, 107, 107));
+  margin-top: 10rem;
 
 }
 
@@ -24,5 +26,13 @@ ul li
 #burger-card{
   width: 16rem;
   margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.616);
+
+}
+
+#new-hamburger-div{
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.616);
 
 }
