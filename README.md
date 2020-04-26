@@ -27,7 +27,7 @@ Open a SQL DB with the attached schema.sql.
 Run the server:
 $ node server.js
 
-For local using in your browser use (using port 8080):
+After running the database and the server, for local using in your browser use (using port 8080):
 http://localhost:8080
 
 Welcome!.
